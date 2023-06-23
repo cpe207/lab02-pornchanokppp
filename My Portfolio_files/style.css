@@ -1,0 +1,54 @@
+.skillcontainer {
+  border-style: solid;
+  border-color: maroon;
+  width: 8cm;
+  height: 3cm;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 16px; */
+  margin-bottom: 8px;
+}
+
+.skillcontainer2 {
+  border-style: solid;
+  border-color: maroon;
+  width: 8cm;
+  height: 3cm;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 16px; */
+  margin-bottom: 35px;
+}
+
+.contact {
+  border-style: solid;
+  border-color: maroon;
+  width: 500px;
+  height: 700px;
+  align-items: left;
+  text-align: ;
+}
+#igpics {
+  /* position: relative;
+  right: 200px; */
+  /* display: flex; */
+  /* justify-content: left; */
+  float: right;
+  margin-right: 50px;
+  width: 50px;
+}
+#fbpics {
+  float: right;
+  margin-right: 60px;
+  width: 50px;
+}
+#cmupics {
+  float: right;
+  margin-right: 70px;
+  width: 50px;
+}
+#mailpics {
+  float: right;
+  margin-right: 70px;
+  width: 50px;
+}
