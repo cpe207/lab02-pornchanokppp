@@ -4,36 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j"
+    />
+    <title>My Portfolio</title>
+
+    <style>
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+
+      * {
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+  font-family: "Mali", cursive;
+
+      }
+    </style>
   </head>
   <body>
-    <center>
-      <div class="contact">
-        <h1><u>My Experience</u></h1>
-        <br />
-        <a href="index.html">
-          <img src="image/IMG_9424.JPG" alt="" width="200px" />
-        </a>
-        <br />
-        <br />
-        <h3>Junior High School</h3>
-        <p>
-          แข่งขันทักษะเกทม์คำคมภาษาไทยระดับภาคเหนือ <br />
-          ได้รางวัลเหรียญเงิน
-        </p>
-        <h3 style="margin-top: 30px">Senior High School</h3>
-        <p>
-          เข้าร่วมการแข่งขันคณิตศาสตร์ suduku ในโรงเรียน <br />
-          ได้รางวัลเหรียญทองแดง
-        </p>
-        <div style="margin-top: 30px">
-          <a href="index.html"> Homepage</a>
-          |
-          <a href="contact.html"> Contact Me!!</a>
-          |
-          <a href="experience.html"> My experience</a>
+
+    <nav class="navbar navbar-expand-sm navbar-dark " style="background-color: rgb(250, 219, 126);">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand" style="color: rgb(83, 79, 42);">Linoon</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggle"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" style="color: rgb(83, 79, 42);">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link" style="color: rgb(83, 79, 42);">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="experience.html" class="nav-link" style="color: rgb(83, 79, 42);">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link" style="color: rgb(83, 79, 42);">Gallery</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </center>
+    </nav>
+    <br />
+
+    <div class="border border-2">
+      <div class="p-2">    
+        <div class="contact">
+          <h1>My Experience</h1>
+          <br />
+          <a href="index.html">
+            <img src="image/IMG_9424.JPG" alt="" width="200px" class="border rounded-3"/>
+          </a>
+          <br />
+          <br />
+          <h3>Junior High School</h3>
+          <p>
+            แข่งขันทักษะเกทม์คำคมภาษาไทยระดับภาคเหนือ <br />
+            ได้รางวัลเหรียญเงิน
+          </p>
+          <h3 style="margin-top: 30px">Senior High School</h3>
+          <p>
+            เข้าร่วมการแข่งขันคณิตศาสตร์ suduku ในโรงเรียน <br />
+            ได้รางวัลเหรียญทองแดง
+          </p>
+          <div style="margin-top: 30px"></div>
+        </div>
+      </div>
+  
+  </div>
+  </div>
   </body>
 </html>

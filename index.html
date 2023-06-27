@@ -3,33 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j">
     <title>My Portfolio</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+      
+      * {
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+  font-family: "Mali", cursive;
+
+      }
+    </style>
+    
   </head>
   <body>
-    <center>
-      <h1 style="text-align: center" class="mali"><u>My Portfolio</u></h1>
+
+    <nav class="navbar navbar-expand-sm navbar-dark " style="background-color: rgb(250, 219, 126);">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand" style="color: rgb(83, 79, 42);">Linoon</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggle"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" style="color: rgb(83, 79, 42);">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link" style="color: rgb(83, 79, 42);">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="experience.html" class="nav-link" style="color: rgb(83, 79, 42);">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link" style="color: rgb(83, 79, 42);">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    
+      <div class="container">
       <a href="index.html">
-        <img src="image/IMG_9424.JPG" alt="" width="200px" />
-      </a>
-      <p>My name is Pondchanok Punin.</p>
-      <p>My nickname is linoon</p>
-      <h3 style="text-align: center"><u>Skills</u></h3>
-      <div class="skillcontainer">
-        <h3>Music</h3>
-        <hr />
-        <p>I can play Ukulele</p>
+      <div class="p-2 ">
+        <div class="border rounded-3 d-flex ">
+          <div class="m-0" >
+        <img src="image/IMG_9424.JPG" alt="" width="150px" height="200px" class="border rounded-circle "/>
+      </a></div>
+      <div class="ms-5 p-4">
+      <p class="h2">Pondchanok Punin.</p>
+      <p> Hi my name is linoon . <br>
+        I come form Chiangmai <br>
+          I am 20 year old . 
+      </p>
+    </div>
+        </div>
+        <br>
+    </div>
+      <h3 style="text-align: center">Skills</h3>
+      <br>
+      <div class="p-2">
+        <div class="border rounded-3 d-flex ">
+          <div>
+            <img src="image/เมนูอาหารคลีน3-1.jpg" alt="" width="200px" class="border rounded-4">
+          </div>
+          <div>
+        <h5 align="center">Cooking</h5>
+        <p> ได้ฝึกทำตั้งแต่เด็กๆcและชอบช่วยคุณแม่ ตอนนี้เลยทำอาหารเป็น  
+        </p>
       </div>
-      <div class="skillcontainer2">
-        <h3>Sport</h3>
-        <hr />
-        <p>I can play Volleyball</p>
+        </div>
       </div>
-      <a href="index.html"> Homepage</a>
-      |
-      <a href="contact.html"> Contact Me!!</a>
-      |
-      <a href="experience.html"> My experience</a>
-    </center>
+      
+      <div class="p-2">
+        <div class="border rounded-3 d-flex">
+          <div>
+            <img src="image/ปลูกต้นไม้.jpeg" alt="" width="200px" class="border rounded-4">
+          </div>
+          <div>
+        <h5 align="center">plant</h5>
+        <p>ที่บ้านจะมีสวนหน้าบ้านที่มีพื้นที่สำหรับปลูกต้นไม้ เลยชอบปลูกต้นไม้ </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-2">
+        <div class="border rounded-3 d-flex">
+          <div>
+            <img src="image/แมว.webp" alt="" width="200px" class="border rounded-4">
+          </div>
+          <div>
+        <h5 align="center">Pet</h5>
+        <p>เป็นคนชอบสัตว์ เลยซื้อน้องแมวมาเลี้ยง ตอนนี้เลยมีสกิลเลี้ยงแมวขั้นเทพ</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
